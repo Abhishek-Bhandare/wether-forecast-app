@@ -8,7 +8,7 @@ const CurrentWeather = () => {
       {weather ? (
         <div>
           <h2>{weather.name}</h2>
-          <p>{weather.main.temp}°C</p>
+          <p>{weather.main.temp} K</p>
         </div>
       ) : (
         <p>No data</p>
